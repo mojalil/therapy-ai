@@ -1,34 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Therapy AI
+
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
+[![Twitter Follow](https://img.shields.io/twitter/follow/motypes?style=social)](https://twitter.com/motypes)
+
+**Therapy AI** is a mental health and well-being app designed to provide users with a simulated therapy experience. Through our platform, users can book and take appointments with AI-driven therapy agents that replicate the experience of a real therapist.
+
+## Table of Contents
+- [Therapy AI](#therapy-ai)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Installation](#installation)
+    - [Install dependencies:](#install-dependencies)
+  - [Getting Started](#getting-started)
+  - [Contribution](#contribution)
+  - [License](#license)
+  - [Contact](#contact)
+
+## Features
+- Book and manage therapy sessions
+- Engage in simulated therapy conversations
+- Secure and private interaction
+- Customizable therapy experience based on user preferences
+
+## Installation
+Before running Therapy AI, ensure that you have Node.js and npm installed on your system.
+
+Clone the repository:
+```
+git clone https://github.com/mojalil/therapy-ai.git
+cd therapy-ai
+```
+
+### Install dependencies:
+
+`npm install` or `yarn install` or `pnpm install`
 
 ## Getting Started
 
 First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+
+`npm run dev` or`yarn dev` or`pnpm dev`
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can start editing the page by modifying \`app/page.tsx\`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This project uses [\`next/font\`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Contribution
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/mojalil/therapy-ai/issues).
 
-To learn more about Next.js, take a look at the following resources:
+## License
+Distributed under the MIT License. See \`LICENSE\` for more information.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contact
+- Twitter: [@motypes](https://twitter.com/motypes)
+- GitHub: [@mojalil](https://github.com/mojalil)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Give Therapy AI a ⭐ if you like this project!
