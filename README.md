@@ -60,6 +60,8 @@ Distributed under the MIT License. See \`LICENSE\` for more information.
 ## Contact
 - Twitter: [@motypes](https://twitter.com/motypes)
 - GitHub: [@mojalil](https://github.com/mojalil)
+- Twitter: [@amdchow](https://twitter.com/amdchow)
+- GitHub: [@amdchow]https://github.com/amdchow)
 
 ---
 
