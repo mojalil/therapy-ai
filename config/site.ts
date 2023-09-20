@@ -8,6 +8,9 @@ export const siteConfig = {
     {
       title: "Home",
       href: "/",
+    },{
+      title: "Schedule a Session",
+      href:"/sessions",
     },
   ],
   links: {
