@@ -2,16 +2,31 @@
 
 import * as React from "react"
 import { Button } from "@/components/ui/button"
-import Link from 'next/link'
+import { signIn, signOut, useSession } from "next-auth/react";
 
-export function SignUp() {
+function AuthButton() {
+  const { data: session } = useSession();
 
+  if (session) {
+    return (
+      <>
+        {session?.user?.name} <br />
+        <Button onClick={() => signOut()}>Sign out</Button>
+      </>
+    );
+  }
   return (
-  <Link href="/signup">  <Button> Sign Up</Button>
-  
-  </Link>
+    <>
+      Not signed in <br />
+      <Button onClick={() => signIn()} > Sign in </Button>
+    </>
+  );
+}
 
-
-  )
+export default function NavMenu() {
+  return (
+    <div>
+      <AuthButton />
+    </div>);
 }
 
