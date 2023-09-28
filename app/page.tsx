@@ -1,7 +1,3 @@
-import Link from "next/link"
-
-import { siteConfig } from "@/config/site"
-import { buttonVariants } from "@/components/ui/button"
 import Therapist from "@/components/therapists"
 
 export default function IndexPage() {
