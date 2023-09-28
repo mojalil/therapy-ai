@@ -8,6 +8,7 @@ import { SiteHeader } from "@/components/site-header"
 import { TailwindIndicator } from "@/components/tailwind-indicator"
 import { ThemeProvider } from "@/components/theme-provider"
 import { getServerSession } from "next-auth";
+import  SessionProvider  from "@/components/SessionProvider"
 
 
 
@@ -46,13 +47,16 @@ export default async function RootLayout({ children }: RootLayoutProps) {
           )}
         >
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+            <SessionProvider>
             <div className="relative flex min-h-screen flex-col">
               <SiteHeader />
                 <div className="flex-1">{children}</div>
             </div>
+            </SessionProvider>
             <TailwindIndicator />
           </ThemeProvider>
-        </body>
+
+          </body>
       </html>
     </>
   )
